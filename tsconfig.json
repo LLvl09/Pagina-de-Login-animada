@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
     "target": "es5",
     "lib": [
       "dom",
@@ -22,5 +25,7 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.json"],
+  "exclude": ["node_modules"]
 }

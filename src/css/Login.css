@@ -1,0 +1,57 @@
+.main-principal {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+    
+}
+
+#title-principal {
+    font-size: 60px;
+    transition: transform 0.3s ease;
+
+}
+
+#title-principal:hover {
+    transform: scale(1.2);
+}
+
+.campo-principal {
+    padding-bottom: 25px;
+    align-items: left;
+}
+
+#inputs {
+    width: 500px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    transition: transform 0.5s ease;
+
+}
+
+#inputs:hover {
+    transform: scale(1.2);
+}
+
+#button-entrar {
+    margin-left: 33.6%;
+    width: 450px;
+    height: 30px;
+    align-items: center;
+    transition: transform 0.5s ease;
+    font-weight: bold;
+    background-image: linear-gradient(40deg, #AEB6BF, #212F3D);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+    border: none;
+    border-radius: 2%;
+    color: #ECF0F1;
+}
+
+#button-entrar:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
