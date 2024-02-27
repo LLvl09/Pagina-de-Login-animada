@@ -10,7 +10,8 @@ const App: React.FC = () => {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const handleLogin = (username: string, password: string) => {
-    // Lógica para autenticar o usuário
+    // Lógica para autenticar --+-+-
+    
     // Pode ser usado para redirecionar para a página principal, definir um token de autenticação, etc.
     setLoggedIn(true);
     console.log(`Usuário ${username} autenticado com sucesso.`);
